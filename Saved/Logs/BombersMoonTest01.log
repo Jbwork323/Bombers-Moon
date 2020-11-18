@@ -1,8 +1,8 @@
-﻿Log file open, 11/18/20 07:47:34
+﻿Log file open, 11/18/20 08:25:42
 LogInit: Display: Running engine for game: BombersMoonTest01
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.188744
+LogStats: Stats thread started at 0.180124
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,526 +194,533 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:361][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:363][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.18-14.47.34:363][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.18-14.47.34:364][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.18-14.47.34:364][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.18-14.47.34:364][  0]LogHAL: Display: Platform has ~ 8 GB [8502878208 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.18-14.47.34:364][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.18-14.47.34:364][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.18-14.47.34:365][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.18-14.47.34:366][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
-[2020.11.18-14.47.34:366][  0]LogInit: Computer: DESKTOP-R75VPJA
-[2020.11.18-14.47.34:366][  0]LogInit: User: nicog
-[2020.11.18-14.47.34:366][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.11.18-14.47.34:366][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.18-14.47.34:366][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.11.18-14.47.34:366][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.18-14.47.34:366][  0]LogMemory: Process Physical Memory: 114.20 MB used, 114.20 MB peak
-[2020.11.18-14.47.34:366][  0]LogMemory: Process Virtual Memory: 95.70 MB used, 95.70 MB peak
-[2020.11.18-14.47.34:366][  0]LogMemory: Physical Memory: 5878.71 MB used,  2230.27 MB free, 8108.98 MB total
-[2020.11.18-14.47.34:366][  0]LogMemory: Virtual Memory: 5138.87 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2020.11.18-14.47.34:371][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.18-14.47.34:401][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.18-14.47.34:402][  0]LogInit: Using OS detected language (en-US).
-[2020.11.18-14.47.34:402][  0]LogInit: Using OS detected locale (en-US).
-[2020.11.18-14.47.34:404][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.18-14.47.34:606][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.18-14.47.34:635][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.18-14.47.34:636][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.18-14.47.34:776][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.18-14.47.34:776][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.18-14.47.34:776][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.18-14.47.34:776][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.18-14.47.34:874][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
-[2020.11.18-14.47.34:874][  0]LogD3D11RHI:       5991/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.18-14.47.34:877][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.18-14.47.34:877][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.18-14.47.34:877][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.18-14.47.34:885][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.18-14.47.34:885][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.18-14.47.34:885][  0]LogWindows: EnumDisplayDevices:
-[2020.11.18-14.47.34:886][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
-[2020.11.18-14.47.34:887][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2020.11.18-14.47.34:887][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2020.11.18-14.47.34:887][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
-[2020.11.18-14.47.34:887][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.11.18-14.47.34:887][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
-[2020.11.18-14.47.34:887][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
-[2020.11.18-14.47.34:887][  0]LogD3D11RHI:      Driver Date: 8-12-2020
-[2020.11.18-14.47.34:887][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2020.11.18-14.47.34:953][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.18-14.47.34:953][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.18-14.47.34:953][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.18-14.47.34:966][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.18-14.47.35:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.18-14.47.35:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.18-14.47.35:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.18-14.47.35:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.18-14.47.35:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.18-14.47.35:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.18-14.47.35:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.18-14.47.35:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.18-14.47.35:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.18-14.47.35:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.18-14.47.35:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.18-14.47.35:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.18-14.47.35:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.18-14.47.35:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.18-14.47.35:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.18-14.47.35:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.18-14.47.35:427][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.18-14.47.35:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.18-14.47.35:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.18-14.47.35:444][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.18-14.47.35:452][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.18-14.47.35:507][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Intermediate/Shaders/WorkingDirectory/10508/).
-[2020.11.18-14.47.35:508][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicog/AppData/Local/Temp/UnrealShaderWorkingDir/61B2B6C64EF1230D69890EB828C329E9/'.
-[2020.11.18-14.47.35:508][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.18-14.47.35:508][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.18-14.47.35:508][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.18-14.47.36:223][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.18-14.47.36:304][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.18-14.47.36:340][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.18-14.47.36:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.18-14.47.36:340][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.18-14.47.36:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.18-14.47.36:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.18-14.47.36:350][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.18-14.47.36:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.18-14.47.36:350][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.18-14.47.36:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicog/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.18-14.47.36:351][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.18-14.47.36:351][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.18-14.47.36:399][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.18-14.47.36:399][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.18-14.47.36:426][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2020.11.18-14.47.36:652][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.18-14.47.36:764][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.18-14.47.36:764][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.18-14.47.36:764][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.18-14.47.36:764][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.18-14.47.36:764][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.18-14.47.36:782][  0]LogNetVersion: BombersMoonTest01 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 533934924)
-[2020.11.18-14.47.37:220][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000269FDB42540), frame # 0
-[2020.11.18-14.47.37:220][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000269FDAC6AC0), frame # 0
-[2020.11.18-14.47.37:221][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000269FDACF200), frame # 0
-[2020.11.18-14.47.37:283][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.055031 seconds
-[2020.11.18-14.47.37:291][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.11.18-14.47.37:291][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.11.18-14.47.37:291][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.18-14.47.37:640][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.18-14.47.37:643][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.18-14.47.37:725][  0]SourceControl: Source control is disabled
-[2020.11.18-14.47.38:359][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.18-14.47.38:359][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.18-14.47.38:569][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.18-14.47.38:589][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.18-14.47.38:589][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.18-14.47.38:635][  0]LogOcInput: OculusInput pre-init called
-[2020.11.18-14.47.38:646][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.18-14.47.38:647][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.18-14.47.38:702][  0]LogEngine: Initializing Engine...
-[2020.11.18-14.47.38:706][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.18-14.47.38:706][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.18-14.47.38:708][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
-[2020.11.18-14.47.38:843][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.18-14.47.38:852][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.18-14.47.38:852][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026981DE1200), frame # 0
-[2020.11.18-14.47.38:852][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026981DF9300), frame # 0
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.18-14.47.38:877][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.18-14.47.38:877][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.18-14.47.38:877][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.18-14.47.38:889][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.18-14.47.38:889][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.18-14.47.38:927][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.11.18-14.47.38:930][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.18-14.47.38:932][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.18-14.47.38:932][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.18-14.47.38:933][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.18-14.47.38:933][  0]LogInit: FAudioDevice initialized.
-[2020.11.18-14.47.38:934][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.18-14.47.39:120][  0]LogDerivedDataCache: Saved boot cache 0.19s 75MB C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.18-14.47.39:127][  0]LogInit: Texture streaming: Enabled
-[2020.11.18-14.47.39:141][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.18-14.47.39:141][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.18-14.47.39:143][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.18-14.47.39:215][  0]LogInit: Transaction tracking system initialized
-[2020.11.18-14.47.39:232][  0]BlueprintLog: New page: Editor Load
-[2020.11.18-14.47.39:295][  0]LocalizationService: Localization service is disabled
-[2020.11.18-14.47.39:367][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.18-14.47.39:368][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.11.18-14.47.39:450][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.18-14.47.39:451][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.18-14.47.39:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/' took 0.01s
-[2020.11.18-14.47.39:756][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.839
-[2020.11.18-14.47.39:756][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Levels/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.18-14.47.39:766][  0]LightingResults: New page: Lighting Build
-[2020.11.18-14.47.39:766][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.18-14.47.39:766][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.18-14.47.39:766][  0]MapCheck: New page: Map Check
-[2020.11.18-14.47.39:766][  0]LightingResults: New page: Lighting Build
-[2020.11.18-14.47.39:775][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026981DE1200), frame # 0
-[2020.11.18-14.47.39:775][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026981DF9300), frame # 0
-[2020.11.18-14.47.39:776][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2020.11.18-14.47.42:310][  0]LogAIModule: Creating AISystem for world MainMenuLevel
-[2020.11.18-14.47.42:310][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002698CEB5600), frame # 0
-[2020.11.18-14.47.42:310][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002698A9B9300), frame # 0
-[2020.11.18-14.47.42:333][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.18-14.47.42:358][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.11.18-14.47.42:359][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.18-14.47.42:359][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
-[2020.11.18-14.47.42:360][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 2.604
-[2020.11.18-14.47.42:362][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.445
-[2020.11.18-14.47.42:617][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.18-14.47.42:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.18-14.47.42:632][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.18-14.47.42:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.18-14.47.42:662][  0]LogCollectionManager: Loaded 0 collections in 0.001868 seconds
-[2020.11.18-14.47.42:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Collections/' took 0.00s
-[2020.11.18-14.47.42:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Developers/nicog/Collections/' took 0.00s
-[2020.11.18-14.47.42:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Collections/' took 0.00s
-[2020.11.18-14.47.42:736][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3434 classes and 823 folders.
-[2020.11.18-14.47.42:763][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.11.18-14.47.43:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.11.18-14.47.43:374][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.11.18-14.47.43:530][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.18-14.47.43:534][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.18-14.47.43:555][  0]LogSlate: Took 0.009868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.18-14.47.43:686][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.11.18-14.47.43:870][  0]LogSlate: Took 0.008396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.18-14.47.43:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.11.18-14.47.43:952][  0]LogLoad: (Engine Initialization) Total time: 11.04 seconds
-[2020.11.18-14.47.43:952][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.18-14.47.44:079][  0]LogAssetRegistry: Asset discovery search completed in 7.6542 seconds
-[2020.11.18-14.47.44:082][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2020.11.18-14.47.44:091][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.18-14.47.55:546][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.11.18-14.47.58:874][248]LogSlate: Window 'Delete Assets' being destroyed
-[2020.11.18-14.47.58:889][248]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.18-14.47.59:094][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
-[2020.11.18-14.47.59:132][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2020.11.18-14.47.59:142][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
-[2020.11.18-14.47.59:324][248]SourceControl: Error: Updated 0 paths from the index
-[2020.11.18-14.47.59:447][248]SourceControl: rm 'Content/Model/1_Wooden_crate.uasset'
-[2020.11.18-14.48.03:349][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2020.11.18-14.48.04:866][617]LogSlate: Window 'Delete Assets' being destroyed
-[2020.11.18-14.48.05:029][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
-[2020.11.18-14.48.05:050][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
-[2020.11.18-14.48.05:059][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
-[2020.11.18-14.48.05:235][617]SourceControl: Error: Updated 0 paths from the index
-[2020.11.18-14.48.05:344][617]SourceControl: rm 'Content/Model/2_Wooden_crate.uasset'
-[2020.11.18-14.48.31:556][970]SourceControl: Error: fatal: pathspec 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/2_Wooden_crate.uasset' did not match any files
-[2020.11.18-14.48.34:475][970]LogSlate: Window 'Message' being destroyed
-[2020.11.18-14.48.34:481][970]Message dialog closed, result: Cancel, title: Message, text: Failed to revert package which was marked for delete.
-[2020.11.18-14.48.39:992][ 78]SourceControl: Error: fatal: pathspec 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/1_Wooden_crate.uasset' did not match any files
-[2020.11.18-14.48.46:895][ 78]LogSlate: Window 'Message' being destroyed
-[2020.11.18-14.48.46:900][ 78]Message dialog closed, result: Ok, title: Message, text: Failed to revert package which was marked for delete.
-[2020.11.18-14.49.11:295][929]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/nicog/OneDrive/Desktop/1 Wooden crate.fbx)
-[2020.11.18-14.49.11:334][929]LogFbx: Loading FBX Scene from ../../../../../../Users/nicog/OneDrive/Desktop/1 Wooden crate.fbx
-[2020.11.18-14.49.11:352][929]LogFbx: FBX Scene Loaded Succesfully
-[2020.11.18-14.49.20:373][929]LogSlate: Window 'FBX Import Options' being destroyed
-[2020.11.18-14.49.20:587][929]LogFbx: Display: Triangulating static mesh Bridge piece
-[2020.11.18-14.49.20:604][929]LogStaticMesh: Building static mesh 1_Wooden_crate...
-[2020.11.18-14.49.20:623][929]LogStaticMesh: Built static mesh [0.02s] /Game/Model/1_Wooden_crate.1_Wooden_crate
-[2020.11.18-14.49.20:643][929]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2020.11.18-14.49.20:743][929]LogSlate: Took 0.013383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.11.18-14.49.24:097][270]LogSlate: Window 'Message Log' being destroyed
-[2020.11.18-14.49.24:101][270]LogSlate: Window 'Message Log' being destroyed
-[2020.11.18-14.49.33:035][ 21]SourceControl: Error: fatal: pathspec 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/2_Wooden_crate.uasset' did not match any files
-[2020.11.18-14.49.35:272][ 21]LogSlate: Window 'Message' being destroyed
-[2020.11.18-14.49.35:277][ 21]Message dialog closed, result: Ok, title: Message, text: Failed to revert package which was marked for delete.
-[2020.11.18-14.49.50:164][566]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/nicog/OneDrive/Desktop/2 Wooden crate.fbx)
-[2020.11.18-14.49.50:174][566]LogFbx: Loading FBX Scene from ../../../../../../Users/nicog/OneDrive/Desktop/2 Wooden crate.fbx
-[2020.11.18-14.49.50:180][566]LogFbx: FBX Scene Loaded Succesfully
-[2020.11.18-14.49.51:891][566]LogSlate: Window 'FBX Import Options' being destroyed
-[2020.11.18-14.49.51:920][566]LogFbx: Display: Triangulating static mesh Top cover
-[2020.11.18-14.49.51:924][566]LogStaticMesh: Building static mesh 2_Wooden_crate...
-[2020.11.18-14.49.51:931][566]LogStaticMesh: Built static mesh [0.01s] /Game/Model/2_Wooden_crate.2_Wooden_crate
-[2020.11.18-14.49.51:953][566]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2020.11.18-14.49.54:287][801]LogSlate: Window 'Message Log' being destroyed
-[2020.11.18-14.49.54:293][801]LogSlate: Window 'Message Log' being destroyed
-[2020.11.18-14.50.02:620][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/2_Wooden_crate" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/2_Wooden_crate.uasset" SILENT=true
-[2020.11.18-14.50.02:654][712]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/2_Wooden_crateDFF272BF4FC92F6B9807849F145A92CD.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/2_Wooden_crate.uasset'
-[2020.11.18-14.50.02:667][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/1_Wooden_crate" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/1_Wooden_crate.uasset" SILENT=true
-[2020.11.18-14.50.02:684][712]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/1_Wooden_crateAE9C3635454034A99111759565883855.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/1_Wooden_crate.uasset'
-[2020.11.18-14.50.02:701][712]AssetCheck: New page: Asset Save: multiple assets
-[2020.11.18-14.50.02:701][712]LogContentValidation: Display: Validating StaticMesh /Game/Model/2_Wooden_crate.2_Wooden_crate
-[2020.11.18-14.50.02:701][712]LogContentValidation: Display: Validating StaticMesh /Game/Model/1_Wooden_crate.1_Wooden_crate
-[2020.11.18-14.50.09:043][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:043][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:043][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:043][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.09:044][306]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon'
-[2020.11.18-14.50.11:096][306]LogSlate: Window 'Submit Files' being destroyed
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:452][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:454][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.18-15.25.42:454][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.18-15.25.42:455][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.18-15.25.42:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.18-15.25.42:455][  0]LogHAL: Display: Platform has ~ 8 GB [8502878208 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.18-15.25.42:455][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:455][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.18-15.25.42:455][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.18-15.25.42:456][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Scalability.ini]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.18-15.25.42:457][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Config/Windows/Engine.ini]
+[2020.11.18-15.25.42:457][  0]LogInit: Computer: DESKTOP-R75VPJA
+[2020.11.18-15.25.42:457][  0]LogInit: User: nicog
+[2020.11.18-15.25.42:457][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.18-15.25.42:457][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.18-15.25.42:457][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.11.18-15.25.42:457][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.18-15.25.42:457][  0]LogMemory: Process Physical Memory: 114.26 MB used, 114.27 MB peak
+[2020.11.18-15.25.42:457][  0]LogMemory: Process Virtual Memory: 95.70 MB used, 95.70 MB peak
+[2020.11.18-15.25.42:457][  0]LogMemory: Physical Memory: 5530.75 MB used,  2578.23 MB free, 8108.98 MB total
+[2020.11.18-15.25.42:457][  0]LogMemory: Virtual Memory: 5138.87 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.11.18-15.25.42:462][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.18-15.25.42:492][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.18-15.25.42:493][  0]LogInit: Using OS detected language (en-US).
+[2020.11.18-15.25.42:493][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.18-15.25.42:496][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.18-15.25.42:668][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.18-15.25.42:695][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.18-15.25.42:695][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.18-15.25.42:813][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.18-15.25.42:813][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.18-15.25.42:813][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.18-15.25.42:813][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.18-15.25.42:906][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2020.11.18-15.25.42:906][  0]LogD3D11RHI:       5991/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.18-15.25.42:907][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.18-15.25.42:907][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.18-15.25.42:908][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.18-15.25.42:915][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.18-15.25.42:915][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.18-15.25.42:915][  0]LogWindows: EnumDisplayDevices:
+[2020.11.18-15.25.42:915][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2020.11.18-15.25.42:916][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.11.18-15.25.42:916][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.11.18-15.25.42:916][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.11.18-15.25.42:916][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.18-15.25.42:916][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2020.11.18-15.25.42:916][  0]LogD3D11RHI:   Driver Version: 452.06 (internal:27.21.14.5206, unified:452.06)
+[2020.11.18-15.25.42:916][  0]LogD3D11RHI:      Driver Date: 8-12-2020
+[2020.11.18-15.25.42:916][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.11.18-15.25.42:973][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.18-15.25.42:973][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.18-15.25.42:973][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.18-15.25.42:987][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.18-15.25.43:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.18-15.25.43:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.18-15.25.43:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.18-15.25.43:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.18-15.25.43:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.18-15.25.43:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.18-15.25.43:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.18-15.25.43:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.18-15.25.43:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.18-15.25.43:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.18-15.25.43:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.18-15.25.43:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.18-15.25.43:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.18-15.25.43:310][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.18-15.25.43:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.18-15.25.43:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.18-15.25.43:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.18-15.25.43:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.18-15.25.43:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.18-15.25.43:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.18-15.25.43:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.18-15.25.43:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.18-15.25.43:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.18-15.25.43:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.18-15.25.43:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.18-15.25.43:423][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.18-15.25.43:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.18-15.25.43:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.18-15.25.43:440][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.18-15.25.43:446][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.18-15.25.43:512][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Intermediate/Shaders/WorkingDirectory/13968/).
+[2020.11.18-15.25.43:512][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicog/AppData/Local/Temp/UnrealShaderWorkingDir/EC82B17F426A31992B73229A9535DB6F/'.
+[2020.11.18-15.25.43:513][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.18-15.25.43:513][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.18-15.25.43:513][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.18-15.25.44:226][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.18-15.25.44:293][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.18-15.25.44:303][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.18-15.25.44:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.18-15.25.44:303][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.18-15.25.44:304][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicog/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.18-15.25.44:304][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.18-15.25.44:304][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.18-15.25.44:351][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.18-15.25.44:351][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.18-15.25.44:376][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2020.11.18-15.25.44:603][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.18-15.25.44:707][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.18-15.25.44:707][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.18-15.25.44:707][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.18-15.25.44:707][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.18-15.25.44:707][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.18-15.25.44:720][  0]LogNetVersion: BombersMoonTest01 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 533934924)
+[2020.11.18-15.25.45:116][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000208251B6540), frame # 0
+[2020.11.18-15.25.45:116][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020825142AC0), frame # 0
+[2020.11.18-15.25.45:117][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002082514B200), frame # 0
+[2020.11.18-15.25.45:167][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.045119 seconds
+[2020.11.18-15.25.45:176][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.18-15.25.45:176][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.18-15.25.45:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.18-15.25.45:472][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.18-15.25.45:475][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.18-15.25.45:545][  0]SourceControl: Source control is disabled
+[2020.11.18-15.25.45:905][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.18-15.25.45:906][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.18-15.25.46:113][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.18-15.25.46:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.18-15.25.46:130][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.18-15.25.46:178][  0]LogOcInput: OculusInput pre-init called
+[2020.11.18-15.25.46:189][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.18-15.25.46:189][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.18-15.25.46:242][  0]LogEngine: Initializing Engine...
+[2020.11.18-15.25.46:243][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.18-15.25.46:243][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.18-15.25.46:244][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.18-15.25.46:367][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.18-15.25.46:374][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.18-15.25.46:374][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020827345200), frame # 0
+[2020.11.18-15.25.46:374][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020827371300), frame # 0
+[2020.11.18-15.25.46:400][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.18-15.25.46:400][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.18-15.25.46:401][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.18-15.25.46:401][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.18-15.25.46:401][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.18-15.25.46:416][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.18-15.25.46:416][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.18-15.25.46:451][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.11.18-15.25.46:456][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.18-15.25.46:458][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.18-15.25.46:458][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.18-15.25.46:459][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.18-15.25.46:460][  0]LogInit: FAudioDevice initialized.
+[2020.11.18-15.25.46:460][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.18-15.25.46:544][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/nicog/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.18-15.25.46:548][  0]LogInit: Texture streaming: Enabled
+[2020.11.18-15.25.46:561][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.18-15.25.46:561][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.18-15.25.46:564][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.18-15.25.46:617][  0]LogInit: Transaction tracking system initialized
+[2020.11.18-15.25.46:634][  0]BlueprintLog: New page: Editor Load
+[2020.11.18-15.25.46:696][  0]LocalizationService: Localization service is disabled
+[2020.11.18-15.25.46:770][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.18-15.25.46:772][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.18-15.25.46:837][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.18-15.25.46:837][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.18-15.25.46:943][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/' took 0.01s
+[2020.11.18-15.25.47:137][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.069
+[2020.11.18-15.25.47:137][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Levels/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.18-15.25.47:137][  0]LightingResults: New page: Lighting Build
+[2020.11.18-15.25.47:138][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.18-15.25.47:138][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.18-15.25.47:138][  0]MapCheck: New page: Map Check
+[2020.11.18-15.25.47:138][  0]LightingResults: New page: Lighting Build
+[2020.11.18-15.25.47:147][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020827345200), frame # 0
+[2020.11.18-15.25.47:147][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020827371300), frame # 0
+[2020.11.18-15.25.47:147][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.11.18-15.25.48:241][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2020.11.18-15.25.48:241][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002081B7FD600), frame # 0
+[2020.11.18-15.25.48:241][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000208166ECF40), frame # 0
+[2020.11.18-15.25.48:245][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.18-15.25.48:271][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.11.18-15.25.48:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.18-15.25.48:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.281ms to complete.
+[2020.11.18-15.25.48:272][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 1.136
+[2020.11.18-15.25.48:274][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.207
+[2020.11.18-15.25.48:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-15.25.48:424][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-15.25.48:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-15.25.48:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.18-15.25.48:446][  0]LogCollectionManager: Loaded 0 collections in 0.001719 seconds
+[2020.11.18-15.25.48:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Collections/' took 0.00s
+[2020.11.18-15.25.48:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Developers/nicog/Collections/' took 0.00s
+[2020.11.18-15.25.48:467][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Collections/' took 0.00s
+[2020.11.18-15.25.48:467][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3434 classes and 823 folders.
+[2020.11.18-15.25.48:474][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.18-15.25.48:524][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.11.18-15.25.48:530][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.11.18-15.25.48:564][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.18-15.25.48:566][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.18-15.25.48:569][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.18-15.25.48:624][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.11.18-15.25.48:662][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.18-15.25.48:716][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.18-15.25.48:718][  0]LogLoad: (Engine Initialization) Total time: 7.65 seconds
+[2020.11.18-15.25.48:718][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.18-15.25.48:904][  0]LogAssetRegistry: Asset discovery search completed in 4.5277 seconds
+[2020.11.18-15.25.48:907][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.11.18-15.25.48:909][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.18-15.26.03:328][711]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.18-15.26.03:409][711]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/nicog/OneDrive/Desktop/Short wall.fbx)
+[2020.11.18-15.26.03:421][711]LogFbx: Loading FBX Scene from ../../../../../../Users/nicog/OneDrive/Desktop/Short wall.fbx
+[2020.11.18-15.26.03:428][711]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.18-15.26.11:201][711]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.18-15.26.11:413][711]LogFbx: Display: Triangulating static mesh Main back wall
+[2020.11.18-15.26.11:414][711]LogFbx: Display: Triangulating static mesh Ground support 
+[2020.11.18-15.26.11:414][711]LogFbx: Display: Triangulating static mesh Pillar
+[2020.11.18-15.26.11:415][711]LogFbx: Display: Triangulating static mesh Pillar.003
+[2020.11.18-15.26.11:415][711]LogFbx: Display: Triangulating static mesh Pillar.005
+[2020.11.18-15.26.11:415][711]LogFbx: Display: Triangulating static mesh Pillar.006
+[2020.11.18-15.26.11:416][711]LogFbx: Display: Triangulating static mesh Pillar.008
+[2020.11.18-15.26.11:426][711]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2020.11.18-15.26.11:477][711]LogFbx: Display: Triangulating static mesh Cross pillar.001
+[2020.11.18-15.26.11:483][711]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.11.18-15.26.11:483][711]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.11.18-15.26.11:483][711]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2020.11.18-15.26.11:492][711]LogFbx: Display: Triangulating static mesh Cross pillar.002
+[2020.11.18-15.26.11:496][711]LogMaterial: Display: Missing cached shader map for material Material_004, compiling. 
+[2020.11.18-15.26.11:503][711]LogFbx: Display: Triangulating static mesh Cross pillar
+[2020.11.18-15.26.11:505][711]LogStaticMesh: Building static mesh Short_wall...
+[2020.11.18-15.26.11:514][711]LogStaticMesh: Built static mesh [0.01s] /Game/Model/Short_wall.Short_wall
+[2020.11.18-15.26.11:541][711]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.18-15.26.11:626][711]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.18-15.26.15:670][ 36]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
+[2020.11.18-15.26.15:795][ 50]LogSlate: Window 'Message Log' being destroyed
+[2020.11.18-15.26.15:798][ 50]LogSlate: Window 'Message Log' being destroyed
+[2020.11.18-15.26.17:098][179]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.11.18-15.26.21:331][463]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.11.18-15.26.21:342][464]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.11.18-15.26.22:357][534]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.11.18-15.26.31:945][ 92]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/nicog/OneDrive/Desktop/Tall wall.fbx)
+[2020.11.18-15.26.31:955][ 92]LogFbx: Loading FBX Scene from ../../../../../../Users/nicog/OneDrive/Desktop/Tall wall.fbx
+[2020.11.18-15.26.31:963][ 92]LogFbx: FBX Scene Loaded Succesfully
+[2020.11.18-15.26.33:922][ 92]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.11.18-15.26.33:952][ 92]LogFbx: Display: Triangulating static mesh Cross pillar
+[2020.11.18-15.26.33:955][ 92]LogFbx: Display: Triangulating static mesh Cross pillar.001
+[2020.11.18-15.26.33:957][ 92]LogFbx: Display: Triangulating static mesh Cross pillar.002
+[2020.11.18-15.26.33:957][ 92]LogFbx: Display: Triangulating static mesh Ground support 
+[2020.11.18-15.26.33:965][ 92]LogFbx: Display: Triangulating static mesh Main back wall
+[2020.11.18-15.26.33:966][ 92]LogFbx: Display: Triangulating static mesh Pillar
+[2020.11.18-15.26.33:966][ 92]LogFbx: Display: Triangulating static mesh Pillar.001
+[2020.11.18-15.26.33:967][ 92]LogFbx: Display: Triangulating static mesh Pillar.002
+[2020.11.18-15.26.33:967][ 92]LogFbx: Display: Triangulating static mesh Pillar.003
+[2020.11.18-15.26.33:967][ 92]LogFbx: Display: Triangulating static mesh Pillar.004
+[2020.11.18-15.26.33:968][ 92]LogFbx: Display: Triangulating static mesh Pillar.005
+[2020.11.18-15.26.33:968][ 92]LogFbx: Display: Triangulating static mesh Pillar.006
+[2020.11.18-15.26.33:968][ 92]LogFbx: Display: Triangulating static mesh Pillar.007
+[2020.11.18-15.26.33:969][ 92]LogFbx: Display: Triangulating static mesh Pillar.008
+[2020.11.18-15.26.33:970][ 92]LogStaticMesh: Building static mesh Tall_wall...
+[2020.11.18-15.26.33:981][ 92]LogStaticMesh: Built static mesh [0.01s] /Game/Model/Tall_wall.Tall_wall
+[2020.11.18-15.26.33:988][ 92]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.11.18-15.26.36:197][279]LogSlate: Window 'Message Log' being destroyed
+[2020.11.18-15.26.36:201][279]LogSlate: Window 'Message Log' being destroyed
+[2020.11.18-15.27.02:245][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Short_plywood_wall" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Short_plywood_wall.uasset" SILENT=true
+[2020.11.18-15.27.02:258][928]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Short_plywood_wall080286DC47E32AC8B1CA93BC613D6EA4.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Short_plywood_wall.uasset'
+[2020.11.18-15.27.02:576][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.11.18-15.27.02:592][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.18-15.27.02:602][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2020.11.18-15.27.02:657][928]AssetCheck: New page: Asset Save: Short_plywood_wall
+[2020.11.18-15.27.02:657][928]LogContentValidation: Display: Validating StaticMesh /Game/Model/Short_plywood_wall.Short_plywood_wall
+[2020.11.18-15.27.24:876][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Tall_plywood_wall" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Tall_plywood_wall.uasset" SILENT=true
+[2020.11.18-15.27.24:890][113]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Tall_plywood_wall71577F004B3A16748F891E8F9A07E4EF.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Tall_plywood_wall.uasset'
+[2020.11.18-15.27.25:175][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.11.18-15.27.25:191][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.11.18-15.27.25:200][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.11.18-15.27.25:246][113]AssetCheck: New page: Asset Save: Tall_plywood_wall
+[2020.11.18-15.27.25:246][113]LogContentValidation: Display: Validating StaticMesh /Game/Model/Tall_plywood_wall.Tall_plywood_wall
+[2020.11.18-15.27.33:949][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Material_002" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_002.uasset" SILENT=true
+[2020.11.18-15.27.33:960][ 26]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Material_0027B4E94B2416C897FD353E7B87FB23399.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_002.uasset'
+[2020.11.18-15.27.34:099][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Material_003" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_003.uasset" SILENT=true
+[2020.11.18-15.27.34:109][ 26]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Material_003D53B54AA4D405B3F210E34AD8F2E7D91.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_003.uasset'
+[2020.11.18-15.27.34:240][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Material_004" FILE="../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_004.uasset" SILENT=true
+[2020.11.18-15.27.34:251][ 26]LogSavePackage: Moving '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Saved/Material_004E257775C4CE21EF53937BC8547FB4E03.tmp' to '../../../../../../Users/nicog/OneDrive/Documents/GitHub/Bombers-Moon/Content/Model/Material_004.uasset'
+[2020.11.18-15.27.34:381][ 26]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.18-15.27.34:381][ 26]LogContentValidation: Display: Validating Material /Game/Model/Material_002.Material_002
+[2020.11.18-15.27.34:381][ 26]LogContentValidation: Display: Validating Material /Game/Model/Material_003.Material_003
+[2020.11.18-15.27.34:381][ 26]LogContentValidation: Display: Validating Material /Game/Model/Material_004.Material_004
