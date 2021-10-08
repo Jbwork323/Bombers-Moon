@@ -1033,3 +1033,9 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.10.08-03.41.36:731][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/Modular_Buildings/ModVolume]
 [2021.10.08-03.41.37:223][726]LogSavePackage: Moving 'D:/UnrealProjects/Bombers-Moon/Saved/ModVolume_Auto62D2415E54B4548C17362578F823E059F.tmp' to 'D:/UnrealProjects/Bombers-Moon/Saved/Autosaves/Game/Model/Modular_Buildings/ModVolume_Auto6.uasset'
 [2021.10.08-03.41.37:228][726]LogFileHelpers: Auto-saving content packages took 0.621
+[2021.10.08-03.43.57:548][  8]BlueprintLog: New page: Compile ModVolume
+[2021.10.08-03.43.57:717][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.10.08-03.43.58:260][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/Modular_Buildings/ModVolume" FILE="D:/UnrealProjects/Bombers-Moon/Content/Model/Modular_Buildings/ModVolume.uasset" SILENT=true
+[2021.10.08-03.43.58:372][ 23]LogSavePackage: Moving 'D:/UnrealProjects/Bombers-Moon/Saved/ModVolume64B38728403EECE9B7745DBF9326AE3B.tmp' to 'D:/UnrealProjects/Bombers-Moon/Content/Model/Modular_Buildings/ModVolume.uasset'
+[2021.10.08-03.43.58:456][ 23]AssetCheck: New page: Asset Save: ModVolume
+[2021.10.08-03.43.58:458][ 23]LogContentValidation: Display: Validating Blueprint /Game/Model/Modular_Buildings/ModVolume.ModVolume
