@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EpicLeaderboard.cpp.obj": [
+			"EpicLeaderboard.cpp.obj",
+			"EpicLeaderboardObject.cpp.obj"
+		],
+		"Module.EpicLeaderboard.gen.cpp.obj": [
+			"EpicLeaderboard.init.gen.cpp.obj",
+			"EpicLeaderboardObject.gen.cpp.obj"
+		]
+	}
+}

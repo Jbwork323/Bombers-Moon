@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EpicLeaderboard.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Bombers-Moon\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Bombers-Moon\Plugins\EpicLeaderboard\Intermediate\Build\Win64\UE4Editor\Development\EpicLeaderboard\Module.EpicLeaderboard.cpp.obj"
+"D:\Unreal Projects\Bombers-Moon\Plugins\EpicLeaderboard\Intermediate\Build\Win64\UE4Editor\Development\EpicLeaderboard\Module.EpicLeaderboard.gen.cpp.obj"
+"D:\Unreal Projects\Bombers-Moon\Plugins\EpicLeaderboard\Intermediate\Build\Win64\UE4Editor\Development\EpicLeaderboard\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Bombers-Moon\Plugins\EpicLeaderboard\Intermediate\Build\Win64\UE4Editor\Development\EpicLeaderboard\UE4Editor-EpicLeaderboard.lib"
+/INCLUDE:IMPLEMENT_MODULE_EpicLeaderboard
